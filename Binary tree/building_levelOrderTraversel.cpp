@@ -15,9 +15,9 @@ class node {
         this->right = NULL;
     }
     
-}
+};
 
-node * buildBinaryTree(node * root){
+node* buildBinaryTree(node * root){
     int data;
     cout<<"Enter the data (-1 for NULL): ";
     cin>>data;
